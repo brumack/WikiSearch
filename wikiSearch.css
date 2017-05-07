@@ -1,0 +1,70 @@
+body {
+  background:lightblue;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/97/W_in_circle.png');
+  background-size:100%;
+}
+
+.container-fluid {
+  text-align:center;
+  color:white;
+  margin:0;
+}
+
+.header {
+  background:black;
+  padding-bottom:3vw;
+  font-family:'Lobster';
+}
+
+#form {
+  font-family:'Anton';
+  border-radius:20px;
+  border-width:3px;
+  border-color:black;
+  margin: 0 auto;
+}
+
+.btn {
+  font-family:'Anton';
+  margin-top:1vw;
+}
+
+#submit:hover {
+  color:black;
+}
+
+#random {
+  background-color:white;
+  border-style:solid;
+  border-color:black;
+}
+
+.entry {
+  font-family:'Lobster';
+  background:white;
+  border-radius:2vw;
+  width:100% !important;
+  border-style:solid;
+  border-color:black;
+  font-size:1.5vw;
+  opacity:.8;
+  margin-top:.5vw;
+  margin-bottom:.5vw;
+}
+
+.entry p {
+  font-family:'anton';
+  color:black;
+  font-weight:bold;
+  text-align:left;
+  margin-left: 3vw;
+  margin-right:3vw;
+  opacity:1;
+}
+
+.entry:hover {
+  text-decoration:none !important;
+  background:#428bca !important;
+  color:white;
+  opacity:.9;
+}
