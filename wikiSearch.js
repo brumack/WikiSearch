@@ -1,6 +1,7 @@
 $('document').ready(function() {
 
   $('#submit').click(function() {
+    console.log('clicked');
     $('.resultsPage').html('<div></div>');
     $('.resultsPage').append('<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div><div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 area"><div class="row grid">');
 
